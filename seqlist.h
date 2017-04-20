@@ -14,20 +14,18 @@ typedef struct SeqList
 	DATATYPE size;
 }SeqList,*PSeqList;
 
-void InitSeqList(PSeqList pSeqList);					//³õÊ¼»¯Ë³Ğò±í
-void PushBack(PSeqList pSeqList, DATATYPE data);		//Î²²å
-void PopBack(PSeqList pSeqList);						//Î²É¾
-void PushFront(PSeqList pSeqList, DATATYPE data);		//Í·²å
-void PopFront(PSeqList pSeqList);						//Í·É¾
-void Insert(PSeqList pSeqList, int pos, DATATYPE data);	//²åÈë
-void Erase(PSeqList pSeqList, int pos);					//É¾³ıÄ³Ò»¸öÊı
-int Find(PSeqList pSeqList, DATATYPE data);				//²éÕÒ
-void Remove(PSeqList pSeqList, DATATYPE data);			//É¾³ıÒ»¸öÊı
-void RemoveAll(PSeqList pSeqList, DATATYPE data);		//É¾³ıÑ¡ÔñµÄÊı
-void BubbleSort(PSeqList pSeqList);						//Ã°ÅİÅÅĞò
-void SelectSort(PSeqList pSeqList);						//Ñ¡ÔñÅÅĞò
-int BinarySearch(PSeqList pSeqList, DATATYPE data);	//¶ş·Ö²éÕÒ
-int Empty(PSeqList pSeqList);							//ÅĞ¶ÏÊÇ·ñÎª¿Õ
-void PrintSeqList(PSeqList pSeqList);					//´òÓ¡Ë³Ğò±í
-
-
+void InitSeqList(PSeqList pSeqList);					//åˆå§‹åŒ–é¡ºåºè¡¨
+void PushBack(PSeqList pSeqList, DATATYPE data);		//å°¾æ’
+void PopBack(PSeqList pSeqList);						//å°¾åˆ 
+void PushFront(PSeqList pSeqList, DATATYPE data);		//å¤´æ’
+void PopFront(PSeqList pSeqList);						//å¤´åˆ 
+void Insert(PSeqList pSeqList, int pos, DATATYPE data);	//æ’å…¥
+void Erase(PSeqList pSeqList, int pos);					//åˆ é™¤æŸä¸€ä¸ªæ•°
+int Find(PSeqList pSeqList, DATATYPE data);				//æŸ¥æ‰¾
+void Remove(PSeqList pSeqList, DATATYPE data);			//åˆ é™¤ä¸€ä¸ªæ•°
+void RemoveAll(PSeqList pSeqList, DATATYPE data);		//åˆ é™¤é€‰æ‹©çš„æ•°
+void BubbleSort(PSeqList pSeqList);						//å†’æ³¡æ’åº
+void SelectSort(PSeqList pSeqList);						//é€‰æ‹©æ’åº
+int BinarySearch(PSeqList pSeqList, DATATYPE data);	//äºŒåˆ†æŸ¥æ‰¾
+int Empty(PSeqList pSeqList);							//åˆ¤æ–­æ˜¯å¦ä¸ºç©º
+void PrintSeqList(PSeqList pSeqList);					//æ‰“å°é¡ºåºè¡¨
