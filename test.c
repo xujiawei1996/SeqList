@@ -61,7 +61,6 @@ void test3()
 	printf("%d\n",BinarySearch(&seqlist,0));
 	//PrintSeqList(&seqlist);
 
-
 }
 
 int main()
